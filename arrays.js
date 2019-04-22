@@ -282,4 +282,3 @@ function addElementToBeginningOfArray(array, element) {
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1);
 }
- ProTip! Use n and p to navigate between 
