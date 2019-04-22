@@ -10,11 +10,6 @@ function addElementToBeginningOfArray(array, element) {
   return array;
 }
 
- function accessElementInArray(array, index){
-  return array[index];
-}
-
-
  function addElementToEndOfArray(array, element) {
   return [...array, element];
 }
@@ -22,6 +17,12 @@ function addElementToBeginningOfArray(array, element) {
   array.push(element);
   return array;
 }
+
+
+ function accessElementInArray(array, index){
+  return array[index];
+}
+
 
  function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
